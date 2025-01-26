@@ -1,0 +1,22 @@
+<html>
+    <h2>
+        Final Result
+    </h2>
+    <body>
+        <table border="2">
+            {% if result < 50 %}
+            <tr>
+                <!-- This is the comment section in Jinja -->
+                <td>Result</td>
+                <td>Fail</td>
+            </tr>
+            {% else %}
+            <tr>
+                <!-- This is the comment section in Jinja -->
+                <td>Result</td>
+                <td>Pass</td>
+            </tr>
+            {% endif %}
+        </table>
+    </body>
+</html>
